@@ -1,5 +1,5 @@
-  @import url('https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600&family=Victor+Mono:wght@300;400;500;600;700&display=swap');
-  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,600&family=Sora:wght@100;200;300;400;500;600&family=Victor+Mono:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600&family=Victor+Mono:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,600&family=Sora:wght@100;200;300;400;500;600&family=Victor+Mono:wght@300;400;500;600;700&display=swap');
 
 *{
     margin: 0px;
@@ -38,7 +38,7 @@ h1{
 }
 
 h2{
-    font-size: 20px;
+    font-size: 25px;
     text-transform: capitalize;
     font-family:'Sora', sans-serif;
     color: rgb(0, 60, 102);
@@ -46,7 +46,7 @@ h2{
 }
 
 h3{
-    font-size: 16px;
+    font-size: 18px;
     text-transform: capitalize;
     font-family:'Sora', sans-serif;
     color: rgb(0, 100, 172);
@@ -62,27 +62,27 @@ h4{
 p{
     font-size: 18px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin: 20px;
-}
-
-.intro{
-    display: flex;
-    flex-direction: column;
-    /* background-image: url("../img/cars/car_show.jpg"); */
-    background-size: 50%;
-    /* margin-right: 20px; */
 }
 
 .tit_intro{
-/* text-align: center; */
-font-size: 35px;
-margin-top: 50px;
+    font-size: 35px;
+    text-align:center;
+    margin-block: 55px;
+}
 
+.artic_intro{
+    display:flex;
+    /* border: 3px solid orange; */
 }
 
 .parrafo_intro{
+    width: 800px;
     font-size: 18px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 20px;
+}
+
+.parrafo_intro2{
     margin: 20px;
 }
 
@@ -123,11 +123,12 @@ margin-top: 50px;
     "caja6 caja6 caja6 caja6";
 }
 
-.caja{
-    /* margin-block: 25px; */
-/* border:2px solid green; */
-/* justify-content: center; */
-}
+/* .caja{
+    margin-block: 25px;
+border:2px solid green;
+justify-content: center;
+} */
+
 .caja1{
     grid-area: caja1;
     /* background-color: aqua; */
@@ -163,16 +164,35 @@ margin-top: 50px;
 
 .caja6{
     grid-area: caja6;
-    margin-block: 20px;
-}
-
+    margin-top: 20px;
+    }
 
 .barra__companias{
     height: auto;
     width: 85%;
     margin-left: 50px;
-
 }
+
+.reviews{
+    display: flex;
+}
+
+.review_tit{
+    height: 200px;
+    width: auto;
+    border-radius: 15px;
+    text-align: center;
+    background-color: rgba(51, 51, 51, 0.2);
+    margin: 5px;
+    margin-top: 50px;
+    padding: 10px;
+}
+
+p span{
+    font-size: 12px;
+}
+
+
 /* COBERTURA */
 
 
@@ -188,9 +208,9 @@ margin-top: 50px;
 /* INICIO PIE DE PAGINA */
 
 footer{
-    background-color:rgb(0, 37, 64);
+    background-color:rgba(31, 31, 31, 0.51);
     color: white;
-    font-size: 11px;
+    font-size: 17px;
     height: auto;
     padding-block: 10px;
     text-align: center;
@@ -199,7 +219,7 @@ footer{
 .footer_foo{
     display: flex;
     margin-top: 10px;
-    gap: 70px;
+    gap: 120px;
     list-style: none;
     justify-content: center;
 }
@@ -221,7 +241,7 @@ footer{
 
 .final_footer{
     margin-top: 20px;
-    font-size: 12px;
+    font-size: 16px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
