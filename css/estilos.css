@@ -41,14 +41,16 @@ h2{
     font-size: 25px;
     text-transform: capitalize;
     font-family:'Sora', sans-serif;
+    text-align: center;
     color: rgb(0, 60, 102);
     margin-top: 20px;
 }
 
 h3{
     font-size: 18px;
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
     font-family:'Sora', sans-serif;
+    text-align: center;
     color: rgb(0, 100, 172);
     margin-top: 20px;    
 }
@@ -72,7 +74,8 @@ p{
 
 .artic_intro{
     display:flex;
-    /* border: 3px solid orange; */
+    gap: 50px;
+    text-align: justify;
 }
 
 .parrafo_intro{
@@ -84,6 +87,9 @@ p{
 
 .parrafo_intro2{
     margin: 20px;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
 }
 
 .catpopulares a{
@@ -178,8 +184,8 @@ justify-content: center;
 }
 
 .review_tit{
-    height: 200px;
-    width: auto;
+    height: 180px;
+    width: 500px;
     border-radius: 15px;
     text-align: center;
     background-color: rgba(51, 51, 51, 0.2);
@@ -189,12 +195,45 @@ justify-content: center;
 }
 
 p span{
-    font-size: 12px;
+    font-size: 13px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
 
 /* COBERTURA */
 
+.auto_cls{
+    height: 100vh;
+    width: 100%;
+}
+
+article li{
+    margin-left: 50px;
+}
+
+/* SINIESTROS */
+
+.img_siniestro{
+    height: 70vh;
+    width: auto;
+    margin-top: 30px;
+    margin-right: 15px;
+}
+
+.siniestro{
+    display: flex;
+    margin: 15px;
+}
+
+.siniestro p{
+    text-align: justify;
+    margin-top: 50px;
+    margin-right: 20px;
+}
+
+article ul li{
+    text-align: justify;
+}
 
 /* CONTACTO */
 .form-label{
@@ -202,7 +241,7 @@ p span{
 }
 
 .parraf_cont{
-    margin: 2px;
+    margin: 10px;
 }
 
 /* INICIO PIE DE PAGINA */
@@ -245,9 +284,24 @@ footer{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.subir{
+    background-color: rgba(255, 166, 0, 0.114);
+    color: rgba(11, 11, 11, 0.114);
+    height: 40px;
+    width: 40px;
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 30px;
+    box-shadow: 2px 2px 5px #fff;
+    border-radius: 50%;
+}
+
 /* MEDIAS QUERIES */
 
-/* @media screen and (max-width: 480px){
+/* @media screen and (min-width: 480px){
     header{
         background-position: left;
         background-color:rgba(255, 255, 255, 0);
@@ -256,16 +310,16 @@ footer{
         font-size: 10px;
         position: relative;
         top: 0px;
-    }
+    } */
 
-    .barra{
+    /* .barra{
         float: right;
         text-transform: capitalize;
         list-style: none;
         margin-right: 25px;
-        }
+        } */
 
-    .contenedor{
+    /* .contenedor{
             margin-left: 10px;
             width: 99%;
             height: auto;
@@ -322,7 +376,6 @@ footer{
         .intro{
             display: flex;
             flex-direction: column;
-            background-image: url("../img/cars/car_show.jpg");
             background-size: 50%;
             background-position: top;
             background-repeat:no-repeat;
