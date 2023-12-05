@@ -303,7 +303,7 @@ footer{
 
 @media only screen and (min-width:320px){
     .nav_img{
-        height: 25vh;
+        height: 15vh;
         width: auto;
     }
 
@@ -334,6 +334,7 @@ footer{
 
     p{
         font-size: 14px;
+        margin: 3px;
     }
 
     p span{
@@ -425,7 +426,7 @@ footer{
     .caja6{
         grid-area: caja6;
         margin-block: 25px;
-        border: 3px solid gray;
+        box-shadow: 2px 2px 5px;
         text-align: center;
         margin-right: 15px;
     }
@@ -509,4 +510,240 @@ footer{
         box-shadow: 2px 2px 5px #fff;
         border-radius: 50%;
     }
+    .img_siniestro{
+        height: 19vh;
+}
+    .auto_cls{
+        height: 75vh;
+        width: 100%;
+}
+
+}
+
+
+/* MEDIA Q A 768 */
+
+@media only screen and (min-width:768px){
+    .nav_img{
+        height: 15vh;
+        width: auto;
+    }
+
+    .tit_intro{
+        font-size: 30px;
+    }
+
+    .parrafo_intro2{
+        display: flex;
+        font-size: 18px;
+    }
+
+    h1{
+        font-size: 30px;
+    }
+
+    h2{
+        font-size: 24px;
+    }
+
+    h3{
+        font-size: 16px;
+    }
+
+    h4{
+        font-size: 41px;
+    }
+
+    p{
+        font-size: 20px;
+        margin:5px;
+    }
+
+    p span{
+        font-size: 16px;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    }
+
+    .tit_intro{
+        font-size: 30px;
+        text-align:center;
+        margin-block: 35px;
+    }
+    
+    .artic_intro{
+        display:inline-block;
+        text-align: justify;
+    }
+    
+    .parrafo_intro{
+        width: auto;
+        font-size: 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .ejec_img{
+        height: 29vh;
+        width: auto;
+    }
+
+    .contenedor{
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(2 1fr);
+        grid-template-rows: repeat(3 1fr);
+        grid-template-areas:
+        
+        "caja1 caja1"
+        "caja2 caja3"
+        "caja4 caja5"
+        "caja6 caja6";
+    }
+    
+    .caja1{
+        grid-area: caja1;
+        text-align: center;
+        margin-block: 25px;
+    }
+    
+    .caja2{
+        grid-area: caja2;
+        margin-right: 10px;
+        margin-bottom: 15px;
+    }
+
+    .auto__btn{
+        height: 50px;
+    }
+    
+    .auto a{
+        font-size: 25px;
+    }
+
+    .caja3{
+        grid-area: caja3;
+        /* margin-right: 10px; */
+        margin-bottom: 15px;
+    }
+
+    .comercio_btn{
+        height: 50px;
+    }
+    
+    .catpopulares a{
+        font-size: 21px;
+    }
+
+    .hogar_btn{
+        height: 50px;
+    }
+
+    .flia{
+        height: 50px;
+    }
+
+    .caja4{
+        grid-area: caja4;
+    }
+    
+    .caja5{
+        grid-area: caja5;
+        margin-right: 10px;
+        margin-bottom: 15px;
+    }
+    
+    .caja6{
+        grid-area: caja6;
+        margin-block: 25px;
+        border-radius: 5px;
+        box-shadow: 2px 2px 5px;
+        text-align: center;
+        margin-right: 15px;
+    }
+    
+    .barra__companias{
+        width: 85%;
+    }
+
+    .reviews{
+        display:flex;
+    }
+    
+    .man_rev{
+        height: 39vh;
+        width: auto;
+        margin-top: 55px;
+    }
+
+    .tit_rev{
+        text-align: center;
+    }
+    
+    .review_tit{
+        width: 25%;
+        height: 200px;
+        box-shadow: 2px 2px 5px;
+        margin: 15px;
+    }
+
+    footer{
+        background-color:rgba(31, 31, 31, 0.51);
+        color: white;
+        height: auto;
+        padding-block: 10px;
+        text-align: center;
+    }
+    
+    .footer_foo{
+        display:flex;
+        margin-top: 10px;
+        list-style: none;
+        justify-content: center;
+        /* text-align: center; */
+    }
+    
+    .empresa ul li{
+        list-style: none;
+        text-align: center;
+    } 
+    
+    .informacion ul li{
+        list-style: none;
+    } 
+    
+    .seguinos ul li{
+        list-style: none;
+    }
+    
+    .final_footer{
+        margin-top: 20px;
+        font-size: 16px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .ssn_img{
+        width: 50%;
+    }
+    
+    .subir{
+        background-color: rgba(255, 166, 0, 0.114);
+        color: rgba(11, 11, 11, 0.114);
+        height: 40px;
+        width: 40px;
+        position: fixed;
+        right: 35px;
+        bottom: 35px;
+        text-align: center;
+        line-height: 40px;
+        font-size: 30px;
+        box-shadow: 2px 2px 5px #fff;
+        border-radius: 50%;
+    }
+    .img_siniestro{
+        height: 25vh;
+    }
+
+    .auto_cls{
+        height: 85vh;
+        width: 100%;
+    }
+
 }
